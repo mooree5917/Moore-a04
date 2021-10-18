@@ -1,0 +1,10 @@
+@startuml
+    class solution46{
+       {static} wordCounter
+        +wordsLength
+        +String
+
+
+    +wordCounter
+    }
+@enduml
