@@ -1,11 +1,13 @@
 @startuml
-'https://plantuml.com/sequence-diagram
+class solution41{
+    void sortTextFile
+    +path to get file(file name)
+    +path to read file
+    +path to write new output(file name)
 
-autonumber
+    void sortTextFile
+        -executes sortTextFile
 
-Alice -> Bob: Authentication Request
-Bob --> Alice: Authentication Response
+}
 
-Alice -> Bob: Another authentication Request
-Alice <-- Bob: another authentication Response
 @enduml
