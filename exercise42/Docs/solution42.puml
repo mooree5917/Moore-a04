@@ -1,0 +1,22 @@
+@startuml
+   class solution42{
+        void tableHeader
+        int headingSpacer
+        int underLines
+        int columns
+        int rows
+        int width
+        int length
+
+
+        void nameSpacer
+        int columns
+        int rows
+        int width
+        int length
+
+        void main
+        +reader
+        +scanner
+    }
+@enduml
